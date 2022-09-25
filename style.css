@@ -13,6 +13,9 @@
         font-size: 28px;
 
     }
+    h3{
+        margin-top: 5px;
+    }
     span {
         color: grey;
 
@@ -56,5 +59,11 @@
         flex-wrap: wrap;
     }
     .hobbies li {
-        width: 50%
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+    }
+    .hobbies li h3{
+    margin-left: 20px;
+    margin-bottom: 40px;
     }
